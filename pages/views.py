@@ -4,7 +4,10 @@ from django.http import HttpResponse
 def home_view(request,*args, **kwargs):
     return render(request,"home.html",{})
 def product2_view(request,*args, **kwargs):
-    return render(request,"product2.html")
+    details = {
+        "product" : "Apple phone"
+    }
+    return render(request,"product2.html",details)
 def product1_view(*args, **kwargs):
     return HttpResponse("<h1>Apple Watch</h1>")
     

@@ -57,7 +57,8 @@ ROOT_URLCONF = 'djangofreecodecamp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Users/ADMIN/Desktop/django/djangofree/djangofreecodecamp/templats/'],
+        # 'DIRS': ['/Users/ADMIN/Desktop/django/djangofree/djangofreecodecamp/templats/'],
+        'DIRS': ['/Users/tmachine/Desktop/django/django/templats/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
